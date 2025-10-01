@@ -1,7 +1,7 @@
 # SouthWines 🍷
 
-SouthWines es una aplicación web desarrollada en **Laravel** que tiene como objetivo la gestión de cursos de vinos del sur.  
-El sistema permite manejar la información de los cursos, usuarios y datos de forma sencilla y escalable.  
+SouthWines es una aplicación web desarrollada en **Laravel** enfocada en la **formación en cata de vinos**.  
+El sistema está diseñado para ofrecer cursos de cata, gestionar inscripciones de alumnos y facilitar la interacción entre usuarios y administradores.  
 
 ---
 
@@ -34,21 +34,24 @@ El sistema permite manejar la información de los cursos, usuarios y datos de fo
 
 ## ✨ Funcionalidades principales
 
-- **Gestión de productos**  
-  - Alta, baja, modificación y listado de vinos disponibles.  
+- **Gestión de cursos**  
+  - Creación, edición y eliminación de cursos de cata de vinos.  
+  - Detalle de cada curso con temario, duración y precio.  
+
 - **Gestión de usuarios**  
-  - Registro de clientes.  
-  - Inicio de sesión y autenticación.  
-  - Perfiles de usuario.  
-- **Carrito de compras**  
-  - Añadir vinos al carrito.  
-  - Finalizar compra.  
-- **Gestión de pedidos**  
-  - Creación y seguimiento de pedidos.  
+  - Registro y autenticación de alumnos.  
+  - Perfiles personales con historial de cursos.  
+
+- **Inscripción a cursos**  
+  - Los usuarios pueden apuntarse a los cursos disponibles.  
+  - Confirmación de plazas y seguimiento de inscripciones.  
+
 - **Panel de administración**  
-  - Control de inventario.  
-  - Gestión de clientes y pedidos.  
-- **Interfaz moderna y responsiva** gracias a **Tailwind CSS** y **Vite**.  
+  - Control de cursos ofrecidos.  
+  - Gestión de alumnos y sus inscripciones.  
+
+- **Interfaz moderna y responsiva**  
+  - Diseñada con **Tailwind CSS** y gestionada con **Vite** para una experiencia fluida en dispositivos móviles y escritorio.  
 
 ---
 
@@ -63,3 +66,4 @@ El sistema permite manejar la información de los cursos, usuarios y datos de fo
 ## 👨‍💻 Autor
 
 Proyecto desarrollado como parte de una práctica académica/profesional.  
+
