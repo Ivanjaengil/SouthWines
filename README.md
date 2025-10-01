@@ -1,7 +1,7 @@
 # SouthWines 🍷
 
-SouthWines es una aplicación web desarrollada en **Laravel** que tiene como objetivo la gestión de un negocio de vinos del sur.  
-El sistema permite manejar la información de productos, usuarios y pedidos de forma sencilla y escalable.  
+SouthWines es una aplicación web desarrollada en **Laravel** que tiene como objetivo la gestión de cursos de vinos del sur.  
+El sistema permite manejar la información de los cursos, usuarios y datos de forma sencilla y escalable.  
 
 ---
 
