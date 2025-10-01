@@ -1,6 +1,9 @@
 # SouthWines 🍷
 
-SouthWines es una aplicación web desarrollada en **Laravel** que tiene como objetivo la gestión de un negocio de vinos del sur. El sistema permite manejar la información de productos, usuarios y pedidos de forma sencilla y escalable.  
+SouthWines es una aplicación web desarrollada en **Laravel** que tiene como objetivo la gestión de un negocio de vinos del sur.  
+El sistema permite manejar la información de productos, usuarios y pedidos de forma sencilla y escalable.  
+
+---
 
 ## 🚀 Tecnologías utilizadas
 
@@ -12,27 +15,51 @@ SouthWines es una aplicación web desarrollada en **Laravel** que tiene como obj
 - **Tailwind CSS** (framework CSS)  
 - **Vite** (compilación de assets)  
 
+---
+
 ## 📂 Estructura del proyecto
 
 - `app/` → Lógica principal de la aplicación (modelos, controladores, etc.)  
+- `bootstrap/` → Archivos de inicio de la aplicación.  
+- `config/` → Configuración de Laravel.  
 - `database/` → Migraciones y seeds.  
-- `resources/` → Vistas (Blade), archivos CSS y JS.  
-- `routes/` → Rutas de la aplicación (`web.php`, `api.php`).  
 - `public/` → Archivos accesibles públicamente (CSS, JS compilado, imágenes).  
+- `resources/` → Vistas (Blade), archivos CSS y JS sin compilar.  
+- `routes/` → Rutas de la aplicación (`web.php`, `api.php`).  
+- `storage/` → Archivos generados por Laravel (logs, caché, etc.).  
+- `tests/` → Pruebas automatizadas.  
 - `southwines.sql` → Script de la base de datos.  
 
-## ⚙️ Requisitos previos
+---
 
-Antes de instalar el proyecto, asegúrate de tener:  
+## ✨ Funcionalidades principales
 
-- PHP >= 8.0  
-- Composer  
-- MySQL  
-- Node.js + NPM  
+- **Gestión de productos**  
+  - Alta, baja, modificación y listado de vinos disponibles.  
+- **Gestión de usuarios**  
+  - Registro de clientes.  
+  - Inicio de sesión y autenticación.  
+  - Perfiles de usuario.  
+- **Carrito de compras**  
+  - Añadir vinos al carrito.  
+  - Finalizar compra.  
+- **Gestión de pedidos**  
+  - Creación y seguimiento de pedidos.  
+- **Panel de administración**  
+  - Control de inventario.  
+  - Gestión de clientes y pedidos.  
+- **Interfaz moderna y responsiva** gracias a **Tailwind CSS** y **Vite**.  
 
-## 🛠️ Instalación y ejecución
+---
 
-1. Clona este repositorio o descomprime el archivo.  
-   ```bash
-   git clone <URL-del-repo>
-   cd SouthWines
+## 📌 Notas adicionales
+
+- El archivo `southwines.sql` contiene la estructura y datos iniciales de la base de datos.  
+- El proyecto está preparado para funcionar tanto en entornos de desarrollo como de producción.  
+- Se recomienda configurar correctamente el `.env` con las credenciales de tu servidor.  
+
+---
+
+## 👨‍💻 Autor
+
+Proyecto desarrollado como parte de una práctica académica/profesional.  
